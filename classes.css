@@ -1,0 +1,15 @@
+.imgtest > img:hover 
+    {
+        width: 30%;
+    }
+
+.tbl
+{
+    border: 5px solid red;
+}
+
+.test
+{
+    border: 5px solid green;
+    padding: 5px
+}
