@@ -39,60 +39,71 @@
 
     <h1 style="margin-left: 50px">Contact us</h1>
 
+    <!-- Гледай да подреждаш таговете подобаваща на това кой под кой таг се намира.
+        Ако имаш таблица с един ред и една колона ... трябвва ли ти реално таблица?
+    -->
     <table class="tbl">
-    <tbody>
-    <tr>
-        <td>
-    <form style="margin-left: 50px" action="/nqma takova ne6to.php">
-    <div>
-        <span>Tell us your name:</span><input style="margin-left: 10px" type="text" name="question" placeholder="Name" required>
-    </div>
+        <tbody>
+            <tr>
+                <td>
+                    <form style="margin-left: 50px" action="/nqma takova ne6to.php">
+                        <div>
+                            <!-- Гледай да не слагаш няколко тага на един ред -->
+                            <!-- Този <span> може да стане <label> -->
+                            <!-- Не е нужно да слагаш type="text", тъй като това е типът по подразбиране на браузъра -->
+                            <span>Tell us your name:</span>
+                            <input style="margin-left: 10px" type="text" name="question" placeholder="Name" required>
+                        </div>
 
-    <br>
-    <br>
+                        <br>
+                        <br>
 
-    <div>
-        <span>Your email:</span> <input style="margin-left: 10px" type="text" name="email" placeholder="email@gmail.com" required>
-    </div>
+                        <div>
+                            <span>Your email:</span> 
+                            <input style="margin-left: 10px" type="text" name="email" placeholder="email@gmail.com" required>
+                        </div>
 
-    <br>
-    <br>
+                        <br>
+                        <br>
 
-    <div>
-    <span class="test">Do you have any questions regarding Middle-Earth?</span> <textarea placeholder="Question" style="margin-left: 10px"></textarea>
-    </div>
+                        <div>
+                            <span class="test">Do you have any questions regarding Middle-Earth?</span> 
+                            <textarea placeholder="Question" style="margin-left: 10px"></textarea>
+                        </div>
 
-    <br>
-    <br>
+                        <br>
+                        <br>
 
-    <div>
-        <span>Tell us your favourite race from Middle-Earth:</span>
-        <select style="margin-left: 10px">
-            <option value="orc">Orc</option>
-            <option value="hobbit">Hobbit</option>
-            <option value="elf">Elf</option>
-            <option value="dwarf">Dwarf</option>
-            <option value="human">Human</option>
-        </select>
-    </div>
+                        <div>
+                            <!-- Много ясно че Elf защо изобщо питаш? -->
+                            <span>Tell us your favourite race from Middle-Earth:</span>
+                            <select style="margin-left: 10px">
+                                <option value="orc">Orc</option>
+                                <option value="hobbit">Hobbit</option>
+                                <option value="elf">Elf</option>
+                                <option value="dwarf">Dwarf</option>
+                                <option value="human">Human</option>
+                            </select>
+                        </div>
 
-    <br>
-    <br>
+                        <br>
+                        <br>
+                        <!-- Да сложиш по един ентер за да подредиш кода е супер. Два ентера обаче става малко множко. 
+                        Така разводняваш самия код, и става по сложен за четене, тъй като виждаш по-малко неща на един екран -->
 
-    
-    <div>
-    <input type="file" name="pic" accept="image/*">
-    </div>
-    
+                        
+                        <div>
+                            <input type="file" name="pic" accept="image/*">
+                        </div>
 
-    <br>
-    <br>
+                        <br>
+                        <br>
 
-    <input type="submit" name="submit">
-    </form>
-    </td>
-    </tr>
-    </tbody>
+                        <input type="submit" name="submit">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
     </table>
 
 

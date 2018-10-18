@@ -8,6 +8,7 @@
     </head>
 
 <body>
+    <!-- <header> ще е полезен, също така и <nav> -->
     <table width="100%">
         <tbody>
             <tr>
@@ -29,21 +30,24 @@
             </tr>
         </tbody>
     </table>
-
+    <!-- и тук можеш да сложиш <nav> -->
     <br>
     <br>
     <a href="news.html">Middle-Earth</a>
     <br>
     <br>
-
+    <!-- Тук пък можеш да добавиш <section>, <main> или <article>, което от тях смяташ, че се връзва най-мног -->
     <h1 style="margin-left: 50px">Middle-Earth Map</h1>
 
     <br>
     <br>
-
+    <!-- На теория, за да използваш само неща, които сме учили, можеше да използваш екстра колони за да постигнеш разстоянието 
+        На практика, просто е добре да не използваш inline styles а да сложиш примертно клас, и да стилизираш класа (по-лесно ще преизползваш CSS-a) 
+    -->
     <table style="margin-left: 50px">
         <tr>
             <td width="50%">
+                <!-- По подразбиране параграфа си е ляво подравнен, не е нуждно да го слагаш допълнително -->
                 <p style="text-align:left">
                     Middle-earth is a large continent, a mass of land that occupies the central regions of Arda. It lays between two continents; Aman, 
                     the uttermost West from which it is separated by the ocean Belegaer, and the Land of the Sun, at the uttermost East which the East Sea
@@ -70,6 +74,7 @@
                     but its status or existence in the later years was unknown.
                 </p>
             </td>
+            <!-- Бих ти препоръчал да сложиш <map>-а да е непосредствено до <img>, за по-добра четимост -->
             <map name="mid">
                 <area shape="poly" coords="608,340,705,343,758,380,736,436,620,433,598,390" alt="Mordor" href="mordor.html"/>
                 <area shape="poly" coords="431,355,558,343,585,373,511,419,435,394" alt="Gondor" href="gondor.html"/>
@@ -86,6 +91,7 @@
     <br>
     <br>
 
+    <!-- И тук можеш да сложиш <nav> -->
     <ol>
         <li><a href="rohan.html">Rohan</a></li>
         <li><a href="gondor.html">Gondor</a></li>
